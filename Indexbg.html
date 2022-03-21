@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf.</title>
+    <script src='objectsbg.js' defer></script>
+    <link rel="stylesheet" href="stylebg.css">
+</head>
+<body>
+    <div id='header'>Bookshelf.</div>
+    <div id='add-books'>
+        <div id='add-pane'>
+            <p> Click below to add a new book to the library</p>
+            <button id='add-new'>Add New</button>
+        </div>
+    </div>
+    <div id='form-filler'>
+        <form action='#'id='form'method='post'name='form'>
+            <h3 id='form-header'>Enter Book Details</h2>
+            <input id='title'name='title'placeholder='Title'type='text'>
+            <input id='author'name='author'placeholder='Author'type='text'>
+            <input type='number' id='pages'name='pages'placeholder='Number of pages'type='text'>
+            <br>
+            <div id='readbox'>
+                <input type='checkbox' id='read' name='read' unchecked>
+                <label for='read'>Read</label>
+            </div>        
+            <div id='submit-buttons'>
+                <button type='button' id='submit'>Add to Library</button>
+                <button type='button' id='cancel'>Cancel</button>
+            </div>
+        </form>
+    </div>
+    <div id='recent'>Recently Added</div>
+    <div id='book-tiles'></div>
+</body>
+<footer>
+   <div id='footer'>Created by Dadzy-1993</div>
+</footer>
+</html>
